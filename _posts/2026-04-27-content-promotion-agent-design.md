@@ -8,24 +8,25 @@ future: true
 htmlwidgets: true
 permalink: /
 _styles: >
-  d-byline .author:not(:first-of-type) .affiliation,
-  d-byline .author:not(:first-of-type) [class*="affiliation"] {
+  d-byline .byline .authors-affiliations p.affiliation:not(:first-of-type) {
     display: none !important;
   }
-  d-byline .author:first-of-type {
+  d-byline .byline .authors-affiliations p.author {
     margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
   }
-  d-byline .author:first-of-type .affiliation,
-  d-byline .author:first-of-type [class*="affiliation"] {
-    margin-top: 0.3em !important;
+  d-byline .byline .authors-affiliations p.affiliation:first-of-type {
+    margin-top: 0.2em !important;
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    line-height: 1.4em !important;
+  }
+  d-byline .byline {
+    padding-top: 0.5em !important;
   }
   d-byline {
     padding-top: 0.5em !important;
-    margin-bottom: 1em !important;
+    padding-bottom: 0.5em !important;
   }
 
 authors:
