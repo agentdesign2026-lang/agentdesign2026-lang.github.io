@@ -7,41 +7,6 @@ date: 2026-04-27
 future: true
 htmlwidgets: true
 permalink: /
-_styles: >
-  d-byline {
-    padding-top: 1.5em !important;
-    margin-bottom: 2em !important;
-  }
-  d-byline > * {
-    display: block !important;
-  }
-  d-byline .author,
-  d-byline [class*="author"] {
-    display: block !important;
-    margin-bottom: 1.2em !important;
-    padding-bottom: 0.8em !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-  }
-  d-byline .author:last-child,
-  d-byline [class*="author"]:last-child {
-    border-bottom: none !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  d-byline .author-name,
-  d-byline [class*="name"]:not([class*="affiliation"]) {
-    display: block !important;
-    margin-bottom: 0.4em !important;
-    font-weight: 500 !important;
-  }
-  d-byline .affiliation,
-  d-byline [class*="affiliation"] {
-    display: block !important;
-    margin-top: 0.3em !important;
-    font-size: 0.9em !important;
-    color: rgba(0, 0, 0, 0.7) !important;
-    line-height: 1.5 !important;
-  }
 
 authors:
   - name: Tommy Mordo
