@@ -10,7 +10,7 @@ permalink: /
 
 # Anonymize for the review process!
 authors:
-  - name: Anonymous
+  - name: Tommy Mordo, Sagie Dekel, Tomer Kordonsky, Omer Madmon, Moshe Tennenholtz, Oren Kurland
 
 # Link to the bibliography file
 bibliography: 2026-04-27-content-promotion-agent-design.bib
