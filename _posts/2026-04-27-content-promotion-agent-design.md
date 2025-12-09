@@ -12,27 +12,41 @@ _styles: >
   d-byline .author:not(:first-of-type) [class*="affiliation"] {
     display: none !important;
   }
+  d-byline .byline.grid {
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+    gap: 3em !important;
+    align-items: start !important;
+  }
   d-byline .authors-affiliations.grid {
-    display: flex !important;
-    flex-direction: column !important;
-    grid-template-columns: none !important;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 0 2em !important;
+    grid-column: 1 / 3 !important;
   }
   d-byline .authors-affiliations h3:first-of-type {
-    margin-bottom: 0.5em;
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    margin-bottom: 0.5em !important;
   }
   d-byline .authors-affiliations h3:last-of-type {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    margin-bottom: 0.5em !important;
   }
   d-byline .authors-affiliations .author {
+    grid-column: 1 !important;
     display: block !important;
-    margin-bottom: 0.5em;
-    grid-column: auto !important;
+    margin-bottom: 0.5em !important;
   }
-  d-byline .authors-affiliations .affiliation {
+  d-byline .authors-affiliations .affiliation:first-of-type {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
     display: block !important;
-    margin-bottom: 0.5em;
-    grid-column: auto !important;
+    margin-bottom: 0.5em !important;
+  }
+  d-byline .byline.grid > div:last-child {
+    grid-column: 3 !important;
   }
 
 authors:
