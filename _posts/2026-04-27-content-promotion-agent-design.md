@@ -7,6 +7,11 @@ date: 2026-04-27
 future: true
 htmlwidgets: true
 permalink: /
+_styles: >
+  d-byline .author:not(:first-of-type) .affiliation,
+  d-byline .author:not(:first-of-type) [class*="affiliation"] {
+    display: none !important;
+  }
 
 authors:
   - name: Tommy Mordo
