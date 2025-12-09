@@ -12,6 +12,21 @@ _styles: >
   d-byline .author:not(:first-of-type) [class*="affiliation"] {
     display: none !important;
   }
+  d-byline .author:first-of-type {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  d-byline .author:first-of-type .affiliation,
+  d-byline .author:first-of-type [class*="affiliation"] {
+    margin-top: 0.3em !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  d-byline {
+    padding-top: 0.5em !important;
+    margin-bottom: 1em !important;
+  }
 
 authors:
   - name: Tommy Mordo
