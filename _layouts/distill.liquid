@@ -26,10 +26,21 @@
                 "author": "{{ author.name }}",
                 "authorURL": "{{ author.url }}",
                 "affiliations": [
+                  {% if author.affiliations %}
                   {
                     "name": "{{ author.affiliations.name }}",
                     "url": "{{ author.affiliations.url }}"
                   }
+                  {% elsif page.affiliations %}
+                  {% for affiliation in page.affiliations %}
+                  {
+                    "name": "{{ affiliation.name }}"
+                    {% if affiliation.url %},
+                    "url": "{{ affiliation.url }}"
+                    {% endif %}
+                  }{% if forloop.last == false %},{% endif %}
+                  {% endfor %}
+                  {% endif %}
                 ]
               }{% if forloop.last == false %},{% endif %}
               {% endfor %}

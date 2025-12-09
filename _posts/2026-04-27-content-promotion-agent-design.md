@@ -11,28 +11,18 @@ permalink: /
 authors:
   - name: Tommy Mordo
     url: mailto:tommymordo@technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
   - name: Sagie Dekel
     url: mailto:sagie.dekel@campus.technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
   - name: Tomer Kordonsky
     url: mailto:tkordonsky@campus.technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
   - name: Omer Madmon
     url: mailto:omermadmon@campus.technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
   - name: Moshe Tennenholtz
     url: mailto:moshet@technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
   - name: Oren Kurland
     url: mailto:kurland@technion.ac.il
-    affiliations:
-      name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
+affiliations:
+  - name: Faculty of Data and Decision Sciences, Technion – Israel Institute of Technology
 
     
 # Link to the bibliography file
