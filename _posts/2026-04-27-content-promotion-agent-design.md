@@ -3,7 +3,7 @@ layout: distill
 title: >-
   Content Promotion as a Strategic Game: How to Design Agentic Publishers for the Evolving Search Ecosystem in the GenAI Era?
 description: With the rise of LLMs, publishers now operate in a dual world where traditional search and chat-like systems coexist. We propose a unified, game-theoretic view of this environment and highlight different tools, such as Multi-Agent Reinforcement Learning, that support the development of competitive content-optimization agents.
-date: 2026-04-27
+date: 2025-12-09
 future: true
 htmlwidgets: true
 permalink: /
