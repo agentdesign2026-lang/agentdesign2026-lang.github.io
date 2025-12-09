@@ -12,6 +12,28 @@ _styles: >
   d-byline .author:not(:first-of-type) [class*="affiliation"] {
     display: none !important;
   }
+  d-byline .authors-affiliations.grid {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+  }
+  d-byline .authors-affiliations h3:first-of-type {
+    margin-bottom: 0.5em;
+  }
+  d-byline .authors-affiliations h3:last-of-type {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  d-byline .authors-affiliations .author {
+    display: block !important;
+    margin-bottom: 0.5em;
+    grid-column: auto !important;
+  }
+  d-byline .authors-affiliations .affiliation {
+    display: block !important;
+    margin-bottom: 0.5em;
+    grid-column: auto !important;
+  }
 
 authors:
   - name: Tommy Mordo
